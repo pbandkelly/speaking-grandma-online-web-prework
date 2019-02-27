@@ -15,10 +15,10 @@
 speak_to_grandma = gets.chomp
 
 if
-  speak_to_grandma = gets.chomp
+  speak_to_grandma == "Hi Grandma!"
   puts "HUH?! SPEAK UP, SONNY!"
-elsif speak_to_grandma = gets.chomp.upcase
+elsif speak_to_grandma == "HI GRANDMA!"
   puts "NO, NOT SINCE 1938!"
-elsif speak_to_grandma = "I LOVE YOU GRANDMA"
+elsif speak_to_grandma == "I LOVE YOU GRANDMA"
   puts "I LOVE YOU TOO PUMPKIN"
 end
